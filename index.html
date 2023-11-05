@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body>
+  
+    <div class="changeStyle">
+     <div class="aud">
+       <i class="fa-solid fa-volume-high"></i>
+       
+       <i class="fa-solid fa-volume-xmark"></i>
+     </div>
+     
+     <div class="modes">
+       <i class="fa-solid fa-sun"></i>
+       
+       <i class="fa-solid fa-moon"></i>
+     </div>
+    
+  </div>
+  
+<div class="container">
+  
+  <div class="display"></div>
+  
+  <input type="text" value="Ac" class="myInput clear" readonly>
+  
+    <input type="text" value="/" class="myInput" readonly onclick="result('/')">
+
+  <input type="text" value="X" class="myInput divided_by" readonly onclick="result('*')">
+  
+  <input type="text" value="Del" class="myInput deleteMe" readonly>
+  
+  <input type="text" value="7" class="myInput seven" readonly onclick="result(7)">
+  
+  <input type="text" value="8" class="myInput eight" readonly onclick="result(8)">
+  
+  <input type="text" value="9" class="myInput nine" readonly onclick="result(9)">
+  
+  <input type="text" value="-" class="myInput minus" readonly onclick="result('-')">
+  
+  <input type="text" value="4" class="myInput four" readonly onclick="result('4')">
+  
+  <input type="text" value="5" class="myInput five" readonly onclick="result('5')">
+  
+  <input type="text" value="6" class="myInput six" readonly onclick="result('6')">
+  
+  <input type="text" value="+" class="myInput plus" readonly onclick="result('+')">
+  
+  <input type="text" value="1" class="myInput one" readonly onclick="result('1')">
+  
+  <input type="text" value="2" class="myInput two" readonly onclick="result(2)">
+  
+  <input type="text" value="3" class="myInput three" readonly onclick="result(3)">
+  
+  <input type="text" value="=" class="myInput equalTo" readonly>
+  
+  <input type="text" value="%" class="myInput percent" readonly onclick="result('%')">
+  
+  <input type="text" value="0" class="myInput zero" readonly onclick="result(0)">
+  
+  <input type="text" value="." class="myInput dot" readonly onclick="result('.')">
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
